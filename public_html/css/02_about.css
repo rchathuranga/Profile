@@ -1,0 +1,178 @@
+
+
+#about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #333333;*/
+    display: flex;
+}
+
+#me{
+    z-index: 10;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+
+    overflow: hidden;
+    border: 2px solid #fc6033;
+}
+
+#me>div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 290px;
+    height: 290px;
+
+    border: 8px solid #fc6033;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#me>div>div{
+    filter: grayscale(100%);
+
+    background: url("../assets/img/IMG_20200419_233808__01-03.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    transform: scale(1.45);
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-radius: 100%;
+}
+
+
+.about_card{
+    width: 400px;
+    height: 180px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #141414;
+    border-radius: 5px;
+
+    position: absolute;
+}
+
+.c1{
+    border-top: 2px solid #fc6033;
+    border-left: 1px solid #fc6033;
+
+    top: 50px;
+    left: 50px;
+}
+
+.c2{
+    border-bottom: 2px solid #fc6033;
+    border-right: 1px solid #fc6033;
+
+    bottom: 80px;
+    right: 100px;
+}
+
+.about-para{
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    height: 80%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: 16px;
+
+    text-align: center;
+}
+
+
+#line{
+    position: absolute;
+    top: 50%;
+
+    background-color: #fc6033;
+    width: 100%;
+    border-radius: 10px;
+    height: 5px;
+    transform: rotate(-30deg);
+    /*z-index: 1;*/
+}
+
+.social-links{
+    transform: rotate(30deg);
+    width: 50px;
+    height: 50px;
+    background-color: #141414;
+    border: 2px solid #fc6033;
+
+    position: relative;
+    top: -23px;
+    display: inline-block;
+
+    border-radius: 100%;
+
+    left: 66%;
+}
+
+
+
+.social-links> a{
+    text-decoration: none;
+}
+
+.social-links i{
+    width: max-content;
+    height: 28px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    color: white;
+    font-size: 28px;
+}
+
+
+
+#about-name{
+    position: absolute;
+    top: 40%;
+
+    margin-left: 35px;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+
+    z-index: 10;
+}
+
+#about-name> h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 140px;
+}

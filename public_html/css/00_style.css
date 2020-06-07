@@ -1,0 +1,58 @@
+
+
+@font-face {
+    font-family: 'monument-extended';
+    src: url("../assets/font/MonumentExtended-Regular.otf");
+    src: url("../assets/font/MonumentExtended-Ultrabold.otf");
+}
+
+
+@font-face {
+    font-family: 'Besobeso';
+    src: url("../assets/font/Besobeso-3za98.otf");
+}
+
+
+*{outline: none;margin: 0;padding: 0}
+
+
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#fp-nav ul li .fp-tooltip{
+    width: 120px  !important;
+    text-align: center;
+    height: 20px;
+    border-radius: 0px;
+    border-right: 4px solid #fc6033;
+    color: white !important;
+    font-family: 'Girassol', cursive;
+    font-weight: bolder;
+}
+
+
+
+#copy-right{
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    z-index: 1000;
+    color: #707070;
+}

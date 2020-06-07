@@ -1,0 +1,28 @@
+
+
+.circular-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: max-content;
+    height: max-content;
+
+    font-family: 'Acme', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    transition: 0.5s ease-out;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6);
+    -webkit-text-fill-color: black;
+
+    animation: text-rotate 10s infinite linear;
+}
+
+
+@keyframes text-rotate {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(359deg);}
+}
